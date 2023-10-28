@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+article {
+    font-family: 'Roboto Slab'
+}
+.newspaper-container {
+    width: 700px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 1px 1px 4px #ddd;
+    margin: 1em auto;
+    padding: 1em;
+}
+header {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 24px;
+    padding: 0px 18px 18px 18px;
+}
+body {
+    font-family: 'Source Sans Pro';
+    background-color: #eee;
+    border-color: #eee;
+}
+.date {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+}
+#title-bar {
+    margin: 1px;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+nav li a {
+    text-decoration: none;
+    color: #777;
+}
+main h2 {
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+    margin-bottom: 2px;
+}
+main h5 {
+    color: red;
+    font-family: 'Abril Fatface';
+    font-size: 16px;
+    margin-top: 8px;
+}
+main img {
+    width: 100%;
+}
+main p {
+    text-align: justify;
+    font-size: 14px;
+    padding: 8px;
+    font-family: 'Source Sans Pro';
+    border-bottom: solid 1px;
+    border-color: #7776;
+    padding-bottom: 28px;
+}
+.more-articles h4 {
+    font-family: 'Roboto Slab';
+}
+span {
+    display: inline-block;
+    width: 49%;
+    padding: 2px;
+}
+span h4 {
+    padding-left: 14px;
+    margin-top: 8px;
+}
+span img {
+    padding: 0px 14px 0px 14px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+span p {
+    text-align: justify;
+    padding: 0px 28px 0px 28px;
+    font-size: 14px;
+}
+.bonus-articles {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px 8px 4px 8px;
+    text-align: center;
+    justify-items: center;
+    margin: 1px 4px 1px 4px;
+}
+.bonus1 {
+    padding: 4px;
+    border: 1px solid #777;
+}
+.bonus1 h6 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
+.bonus1 p {
+    font-size 12px;
+    text-align: left;
+    padding: 1px 8px 1px 8px;
+}
+.bonus2 {
+    padding: 4px;
+    border: 1px solid #777;
+}
+.bonus2 h6 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
+.bonus2 p {
+    font-size 12px;
+    text-align: left;
+    padding: 4px 8px 4px 8px;
+}
+.bonus3 {
+    padding: 4px;
+    border: 1px solid #777;
+}
+.bonus3 h6 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
+.bonus3 p {
+    font-size 12px;
+    text-align: left;
+    padding: 4px 8px 4px 8px;
+}
+.bonus3 p a {
+    text-decoration: none;
+    color: black;
+    border: 2px groove red;
+    padding: 2px;
+}
