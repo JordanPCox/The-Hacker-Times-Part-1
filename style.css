@@ -29,6 +29,11 @@ body {
 #title-bar {
     margin: 1px;
 }
+nav {
+    position: sticky;
+    top: 0px;
+    background: white;
+}
 nav ul {
     margin: 0px;
     padding: 0px;
@@ -94,57 +99,33 @@ span p {
 }
 .bonus-articles {
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     padding: 1px 8px 4px 8px;
     text-align: center;
-    justify-items: center;
     margin: 1px 4px 1px 4px;
+    justify-content: center;
 }
-.bonus1 {
+.bonus-header {
     padding: 4px;
-    border: 1px solid #777;
-}
-.bonus1 h6 {
-    font-size: 22px;
+    border-top: 4px double #777;
+    border-right: 4px double #777;
+    border-left: 4px double #777;
+    font-size: 28px;
     font-weight: bold;
     font-family: 'Roboto Slab';
 }
-.bonus1 p {
+.bonus-content {
     font-size 12px;
     text-align: left;
     padding: 1px 8px 1px 8px;
+    border-right: 4px double #777;
+    border-bottom: 4px double #777;
+    border-left: 4px double #777;
 }
-.bonus2 {
-    padding: 4px;
-    border: 1px solid #777;
-}
-.bonus2 h6 {
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Roboto Slab';
-}
-.bonus2 p {
-    font-size 12px;
-    text-align: left;
-    padding: 4px 8px 4px 8px;
-}
-.bonus3 {
-    padding: 4px;
-    border: 1px solid #777;
-}
-.bonus3 h6 {
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Roboto Slab';
-}
-.bonus3 p {
-    font-size 12px;
-    text-align: left;
-    padding: 4px 8px 4px 8px;
-}
-.bonus3 p a {
+.bonus-content a {
     text-decoration: none;
     color: black;
     border: 2px groove red;
     padding: 2px;
+    font-size: 15px;
 }
